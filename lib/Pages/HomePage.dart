@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tache_food/Widgets/AppBarWidget.dart';
+import 'package:tache_food/Widgets/MenuWidget.dart';
+import 'package:tache_food/Widgets/MostOrderWidget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -64,17 +66,36 @@ class HomePage extends StatelessWidget {
             ),
           ),
         ),
-        //Category
+
+        //Category Item
         Padding(
           padding: EdgeInsets.only(top: 20, left: 10),
           child: Text(
-            "Categories",
+            "Tache Menu",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 20,
             ),
           ),
         ),
+
+        // Menu Widget
+        MenuWidget(),
+
+        // Trending Item
+        Padding(
+          padding: EdgeInsets.only(top: 20, left: 10),
+          child: Text(
+            "Most Order",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+            ),
+          ),
+        ),
+
+        // Trending Widget
+        MostOrderWidget(),
       ],
     ));
   }
