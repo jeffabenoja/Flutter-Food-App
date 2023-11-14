@@ -5,6 +5,8 @@ import 'package:tache_food/Widgets/MenuWidget.dart';
 import 'package:tache_food/Widgets/MostOrderWidget.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -54,7 +56,7 @@ class HomePage extends StatelessWidget {
                       ),
                       child: TextFormField(
                         decoration: InputDecoration(
-                          hintText: "What are you craving now?",
+                          hintText: "What are your cravings now?",
                           border: InputBorder.none,
                         ),
                       ),

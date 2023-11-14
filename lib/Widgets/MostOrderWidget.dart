@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MostOrderWidget extends StatelessWidget {
+  const MostOrderWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
