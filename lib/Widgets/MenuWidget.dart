@@ -82,7 +82,7 @@ class MenuWidget extends StatelessWidget {
                     )
                   ]),
               child: Image.asset(
-                "images/chicken/chicken1.png",
+                "images/chicken/chicken1.PNG",
                 width: 50,
                 height: 50,
               ),
