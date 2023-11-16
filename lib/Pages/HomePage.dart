@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tache_food/Widgets/AppBarWidget.dart';
@@ -79,19 +80,17 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding:
-                      EdgeInsets.only(bottom: 10), // Add space below the text
+                  padding: EdgeInsets.only(bottom: 10),
                   child: Text(
                     "Tache Menu",
-                    style: TextStyle(
+                    style: GoogleFonts.pacifico(
                       fontWeight: FontWeight.bold,
-                      fontSize: 20,
+                      fontSize: 40,
                     ),
                   ),
                 ),
                 Padding(
-                  padding:
-                      EdgeInsets.only(top: 10), // Add space above the widget
+                  padding: EdgeInsets.only(top: 10),
                   child: MenuWidget(),
                 ),
               ],
@@ -105,19 +104,17 @@ class HomePage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
-                  padding:
-                      EdgeInsets.only(bottom: 10), // Add space below the text
+                  padding: EdgeInsets.only(bottom: 10),
                   child: Text(
                     "Popular",
-                    style: TextStyle(
+                    style: GoogleFonts.pacifico(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
                     ),
                   ),
                 ),
                 Padding(
-                  padding:
-                      EdgeInsets.only(top: 10), // Add space above the widget
+                  padding: EdgeInsets.only(top: 10),
                   child: MostOrderWidget(),
                 ),
               ],
