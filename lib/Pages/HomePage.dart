@@ -76,48 +76,60 @@ class HomePage extends StatelessWidget {
           // Tache Menu Section
           Padding(
             padding: EdgeInsets.symmetric(vertical: 30),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Padding(
-                  padding: EdgeInsets.only(bottom: 10),
-                  child: Text(
-                    "Tache Menu",
-                    style: GoogleFonts.pacifico(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 40,
+            child: Container(
+              width: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: double.infinity,
+                    color: Color.fromARGB(255, 255, 97, 29),
+                    padding: EdgeInsets.all(10),
+                    child: Text(
+                      "Tache Menu",
+                      style: GoogleFonts.pacifico(
+                        fontSize: 35,
+                        color: Colors.white,
+                      ),
+                      textAlign: TextAlign.center,
                     ),
                   ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(top: 10),
-                  child: MenuWidget(),
-                ),
-              ],
+                  Padding(
+                    padding: EdgeInsets.only(top: 10),
+                    child: MenuWidget(),
+                  ),
+                ],
+              ),
             ),
           ),
 
           // Popular Section
           Padding(
             padding: EdgeInsets.symmetric(vertical: 30),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Padding(
-                  padding: EdgeInsets.only(bottom: 10),
-                  child: Text(
-                    "Popular",
-                    style: GoogleFonts.pacifico(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
+            child: Container(
+              width: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: double.infinity,
+                    color: Color.fromARGB(255, 255, 97, 29),
+                    padding: EdgeInsets.all(10),
+                    child: Text(
+                      "Popular",
+                      style: GoogleFonts.pacifico(
+                        fontSize: 25,
+                        color: Colors.white,
+                      ),
+                      textAlign: TextAlign.center,
                     ),
                   ),
-                ),
-                Padding(
-                  padding: EdgeInsets.only(top: 10),
-                  child: MostOrderWidget(),
-                ),
-              ],
+                  Padding(
+                    padding: EdgeInsets.only(top: 10),
+                    child: MostOrderWidget(),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
