@@ -4,8 +4,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:tache_food/Widgets/AppBarWidget.dart';
+import 'package:tache_food/Widgets/DrawerWidget.dart';
 import 'package:tache_food/Widgets/MenuWidget.dart';
 import 'package:tache_food/Widgets/MostOrderWidget.dart';
+import 'package:tache_food/Widgets/NewItemsWidget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -132,7 +134,70 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
+
+          // // New Items Section
+          Padding(
+            padding: EdgeInsets.symmetric(vertical: 30),
+            child: Container(
+              width: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: double.infinity,
+                    color: Color.fromARGB(255, 255, 97, 29),
+                    padding: EdgeInsets.all(10),
+                    child: Text(
+                      "Newest",
+                      style: GoogleFonts.pacifico(
+                        fontSize: 25,
+                        color: Colors.white,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(top: 10),
+                    // Newest Item
+                    child: NewItemsWidget(),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
+      ),
+      drawer: DrawerWidget(),
+      floatingActionButton: Container(
+        decoration:
+            BoxDecoration(borderRadius: BorderRadius.circular(20), boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.5),
+            spreadRadius: 2,
+            blurRadius: 10,
+            offset: Offset(0, 3),
+          ),
+        ]),
+
+        // Original remove the other one if there any error
+        // child: FloatingActionButton(
+        //   onPressed: () {},
+        //   child: Icon(
+        //     CupertinoIcons.cart,
+        //     size: 28,
+        //     color: Color.fromARGB(255, 255, 97, 29),
+        //   ),
+        //   backgroundColor: Colors.white,
+        // ),
+        child: FloatingActionButton(
+          onPressed: () {},
+          backgroundColor: Colors.white,
+          child: Icon(
+            CupertinoIcons.cart,
+            size: 28,
+            color: Color.fromARGB(255, 255, 97, 29),
+          ),
+        ),
       ),
     );
   }
