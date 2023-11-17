@@ -82,7 +82,7 @@ class MenuWidget extends StatelessWidget {
                     )
                   ]),
               child: Image.asset(
-                "images/chicken/chicken1.PNG",
+                "images/newest/new69.PNG",
                 width: 50,
                 height: 50,
               ),
@@ -104,7 +104,7 @@ class MenuWidget extends StatelessWidget {
                       spreadRadius: 2,
                       blurRadius: 10,
                       offset: Offset(0, 3),
-                    )
+                    ),
                   ]),
               child: Image.asset(
                 "images/fries/fries1.png",
@@ -139,6 +139,80 @@ class MenuWidget extends StatelessWidget {
             ),
           ),
 
+          Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: 10,
+            ),
+            child: Container(
+              padding: EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 10,
+                      offset: Offset(0, 3),
+                    )
+                  ]),
+              child: Image.asset(
+                "images/newest/new3.png",
+                width: 50,
+                height: 50,
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: 10,
+            ),
+            child: Container(
+              padding: EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 10,
+                      offset: Offset(0, 3),
+                    )
+                  ]),
+              child: Image.asset(
+                "images/newest/new1.png",
+                width: 50,
+                height: 50,
+              ),
+            ),
+          ),
+
+          Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: 10,
+            ),
+            child: Container(
+              padding: EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.5),
+                      spreadRadius: 2,
+                      blurRadius: 10,
+                      offset: Offset(0, 3),
+                    )
+                  ]),
+              child: Image.asset(
+                "images/newest/new5.png",
+                width: 50,
+                height: 50,
+              ),
+            ),
+          ),
           // Next Component
         ]),
       ),
