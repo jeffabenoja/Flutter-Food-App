@@ -62,40 +62,43 @@ class Cart extends StatelessWidget {
                         ),
 
                         // ORIGINAL CONTAINER
-                        const SizedBox(
-                          width: 190,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
-                              Text(
-                                "Add Name",
-                                style: TextStyle(
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold,
+                        Expanded(
+                          child: SizedBox(
+                            width: 190,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Text(
+                                  "Add Name",
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "Desciption",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  // fontWeight: FontWeight.bold,
+                                Text(
+                                  "Desciption",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    // fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "\Php 360.00",
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.red,
+                                Text(
+                                  "\Php 360.00",
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.red,
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(
                             vertical: 8,
+                            horizontal: 15,
                           ),
                           child: Container(
                             padding: EdgeInsets.all(5),
@@ -129,6 +132,7 @@ class Cart extends StatelessWidget {
                       ]),
                     ),
                   ),
+
                   // Single Item
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 9),
@@ -156,40 +160,43 @@ class Cart extends StatelessWidget {
                         ),
 
                         // ORIGINAL CONTAINER
-                        const SizedBox(
-                          width: 190,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
-                              Text(
-                                "Add Name",
-                                style: TextStyle(
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold,
+                        Expanded(
+                          child: SizedBox(
+                            width: 190,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Text(
+                                  "Add Name",
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "Desciption",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  // fontWeight: FontWeight.bold,
+                                Text(
+                                  "Desciption",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    // fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "\Php 560.00",
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.red,
+                                Text(
+                                  "\Php 560.00",
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.red,
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(
                             vertical: 8,
+                            horizontal: 15,
                           ),
                           child: Container(
                             padding: EdgeInsets.all(5),
@@ -250,41 +257,44 @@ class Cart extends StatelessWidget {
                           width: 150,
                         ),
 
-                        // ORIGINAL CONTAINER
-                        const SizedBox(
-                          width: 190,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
-                              Text(
-                                "Add Name",
-                                style: TextStyle(
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold,
+                        // ORIGINAL CONTAINER No Expanded
+                        Expanded(
+                          child: SizedBox(
+                            width: 190,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Text(
+                                  "Add Name",
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "Desciption",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  // fontWeight: FontWeight.bold,
+                                Text(
+                                  "Desciption",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    // fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "\Php 240.00",
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.red,
+                                Text(
+                                  "\Php 240.00",
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.red,
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                         Padding(
                           padding: EdgeInsets.symmetric(
                             vertical: 8,
+                            horizontal: 15,
                           ),
                           child: Container(
                             padding: EdgeInsets.all(5),
@@ -345,36 +355,38 @@ class Cart extends StatelessWidget {
                           width: 150,
                         ),
 
-                        // ORIGINAL CONTAINER
-                        const SizedBox(
-                          width: 190,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceAround,
-                            children: [
-                              Text(
-                                "Add Name",
-                                style: TextStyle(
-                                  fontSize: 17,
-                                  fontWeight: FontWeight.bold,
+                        // ORIGINAL NO EXPANDED
+                        Expanded(
+                          child: SizedBox(
+                            width: 190,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Text(
+                                  "Add Name",
+                                  style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "Desciption",
-                                style: TextStyle(
-                                  fontSize: 12,
-                                  // fontWeight: FontWeight.bold,
+                                Text(
+                                  "Desciption",
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    // fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "\Php 130.00",
-                                style: TextStyle(
-                                  fontSize: 15,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.red,
+                                Text(
+                                  "\Php 130.00",
+                                  style: TextStyle(
+                                    fontSize: 15,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.red,
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                         Padding(
@@ -412,6 +424,134 @@ class Cart extends StatelessWidget {
                           ),
                         )
                       ]),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 30,
+                    ),
+                    child: Container(
+                      padding: EdgeInsets.all(20),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.withOpacity(0.5),
+                            spreadRadius: 3,
+                            blurRadius: 10,
+                            offset: Offset(0, 3),
+                          )
+                        ],
+                      ),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Items",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                Text(
+                                  "7",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+
+                          Divider(
+                            color: Colors.black,
+                          ),
+
+                          Padding(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Sub-Total",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                Text(
+                                  "\Php",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+
+                          Divider(
+                            color: Colors.black,
+                          ),
+
+                          Padding(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Shipping Fee",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                Text(
+                                  "\Php",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+
+                          Divider(
+                            color: Colors.black,
+                          ),
+
+                          Padding(
+                            padding: EdgeInsets.symmetric(
+                              vertical: 10,
+                            ),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Total Charge",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                                Text(
+                                  "\Php",
+                                  style: TextStyle(
+                                    fontSize: 18,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],

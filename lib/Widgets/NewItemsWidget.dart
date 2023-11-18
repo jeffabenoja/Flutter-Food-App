@@ -9,7 +9,7 @@ class NewItemsWidget extends StatefulWidget {
 }
 
 class _NewItemsWidgetState extends State<NewItemsWidget> {
-  List<bool> isFavoriteList = List.generate(6, (index) => false);
+  List<bool> isFavoriteList = List.generate(7, (index) => false);
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -712,6 +712,125 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                               },
                               child: Icon(
                                 isFavoriteList[5]
+                                    ? Icons.favorite
+                                    : Icons.favorite_border,
+                                color: Colors.red,
+                                size: 18,
+                              ),
+                            ),
+                          ),
+                          Icon(
+                            CupertinoIcons.cart,
+                            color: Colors.red,
+                            size: 18,
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 10),
+              child: Container(
+                width: double.infinity, // Original Size 380
+                height: 150,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                          color: Colors.grey.withOpacity(0.5),
+                          spreadRadius: 3,
+                          blurRadius: 10,
+                          offset: Offset(0, 3)),
+                    ]),
+                child: Row(
+                  // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    InkWell(
+                      onTap: () {},
+                      child: Container(
+                        // width: 230,
+                        alignment: Alignment.center,
+                        child: Image.asset(
+                          "images//drinks/drinks1.png",
+                          height: 120, // Original size 120
+                          width: 150, // Original size 150
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      // flex: 2,
+                      child: Container(
+                        // color: Colors.pink,
+                        width: 190,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 10),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: [
+                              Text(
+                                "Add Name",
+                                style: TextStyle(
+                                  fontSize: 17,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              Text(
+                                "Add Description",
+                                style: TextStyle(
+                                  fontSize: 12,
+                                  // fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              RatingBar.builder(
+                                initialRating: 5,
+                                minRating: 1,
+                                direction: Axis.horizontal,
+                                itemCount: 5,
+                                itemSize: 18,
+                                itemPadding:
+                                    EdgeInsets.symmetric(horizontal: 4),
+                                itemBuilder: (context, _) =>
+                                    Icon(Icons.star, color: Colors.red),
+                                onRatingUpdate: (index) {},
+                              ),
+                              Text(
+                                "\Php 130.00",
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  color: Colors.red,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.symmetric(
+                        vertical: 10,
+                        horizontal: 15,
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          MouseRegion(
+                            cursor: SystemMouseCursors.click,
+                            child: GestureDetector(
+                              onTap: () {
+                                // Handle the tap event and update the isFavorite variable
+                                setState(() {
+                                  isFavoriteList[6] = !isFavoriteList[6];
+                                });
+                              },
+                              child: Icon(
+                                isFavoriteList[6]
                                     ? Icons.favorite
                                     : Icons.favorite_border,
                                 color: Colors.red,
