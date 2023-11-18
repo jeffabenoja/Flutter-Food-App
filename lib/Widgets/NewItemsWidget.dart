@@ -86,7 +86,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 460.00",
+                                "\Php 280.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -205,7 +205,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 460.00",
+                                "\Php 280.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -324,7 +324,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 460.00",
+                                "\Php 190.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -443,7 +443,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 460.00",
+                                "\Php 220.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -562,7 +562,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 460.00",
+                                "\Php 180.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -681,7 +681,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 460.00",
+                                "\Php 150.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
