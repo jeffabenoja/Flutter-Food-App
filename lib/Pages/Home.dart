@@ -9,8 +9,8 @@ import 'package:tache_food/Widgets/MenuWidget.dart';
 import 'package:tache_food/Widgets/MostOrderWidget.dart';
 import 'package:tache_food/Widgets/NewItemsWidget.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class Home extends StatelessWidget {
+  const Home({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -190,7 +190,9 @@ class HomePage extends StatelessWidget {
         //   backgroundColor: Colors.white,
         // ),
         child: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.pushNamed(context, "cartPage");
+          },
           backgroundColor: Colors.white,
           child: Icon(
             CupertinoIcons.cart,

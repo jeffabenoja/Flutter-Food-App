@@ -193,7 +193,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 ),
                               ),
                               RatingBar.builder(
-                                initialRating: 4,
+                                initialRating: 3,
                                 minRating: 1,
                                 direction: Axis.horizontal,
                                 itemCount: 5,
@@ -312,7 +312,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 ),
                               ),
                               RatingBar.builder(
-                                initialRating: 4,
+                                initialRating: 5,
                                 minRating: 1,
                                 direction: Axis.horizontal,
                                 itemCount: 5,
@@ -431,7 +431,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 ),
                               ),
                               RatingBar.builder(
-                                initialRating: 4,
+                                initialRating: 3,
                                 minRating: 1,
                                 direction: Axis.horizontal,
                                 itemCount: 5,
@@ -669,7 +669,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 ),
                               ),
                               RatingBar.builder(
-                                initialRating: 4,
+                                initialRating: 5,
                                 minRating: 1,
                                 direction: Axis.horizontal,
                                 itemCount: 5,
