@@ -75,7 +75,7 @@ class Home extends StatelessWidget {
             ),
           ),
 
-          // Tache Menu Section
+          //  Menu Section
           Padding(
             padding: EdgeInsets.only(top: 30, bottom: 15),
             child: Container(
@@ -85,12 +85,12 @@ class Home extends StatelessWidget {
                 children: [
                   Container(
                     width: double.infinity,
-                    color: Color.fromARGB(255, 255, 97, 29),
-                    padding: EdgeInsets.all(10),
+                    color: Color.fromARGB(255, 255, 150, 80),
+                    padding: EdgeInsets.all(5),
                     child: Text(
-                      "Tache Menu",
+                      "Menu",
                       style: GoogleFonts.pacifico(
-                        fontSize: 35,
+                        fontSize: 25,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
@@ -115,8 +115,8 @@ class Home extends StatelessWidget {
                 children: [
                   Container(
                     width: double.infinity,
-                    color: Color.fromARGB(255, 255, 97, 29),
-                    padding: EdgeInsets.all(10),
+                    color: Color.fromARGB(255, 255, 150, 80),
+                    padding: EdgeInsets.all(5),
                     child: Text(
                       "Popular",
                       style: GoogleFonts.pacifico(
@@ -145,8 +145,8 @@ class Home extends StatelessWidget {
                 children: [
                   Container(
                     width: double.infinity,
-                    color: Color.fromARGB(255, 255, 97, 29),
-                    padding: EdgeInsets.all(10),
+                    color: Color.fromARGB(255, 255, 150, 80),
+                    padding: EdgeInsets.all(5),
                     child: Text(
                       "Newest",
                       style: GoogleFonts.pacifico(
