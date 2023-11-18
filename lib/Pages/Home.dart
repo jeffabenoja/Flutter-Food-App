@@ -77,7 +77,7 @@ class Home extends StatelessWidget {
 
           // Tache Menu Section
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 30),
+            padding: EdgeInsets.only(top: 30, bottom: 15),
             child: Container(
               width: double.infinity,
               child: Column(
@@ -107,7 +107,7 @@ class Home extends StatelessWidget {
 
           // Popular Section
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 30),
+            padding: EdgeInsets.symmetric(vertical: 15),
             child: Container(
               width: double.infinity,
               child: Column(
@@ -137,7 +137,7 @@ class Home extends StatelessWidget {
 
           // // New Items Section
           Padding(
-            padding: EdgeInsets.symmetric(vertical: 30),
+            padding: EdgeInsets.only(top: 15, bottom: 30),
             child: Container(
               width: double.infinity,
               child: Column(
