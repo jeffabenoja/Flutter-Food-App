@@ -24,7 +24,7 @@ class DrawerWidget extends StatelessWidget {
                 ),
               ),
               accountEmail: Text(
-                "tarche.restaurant@tache.com",
+                "tache.restaurant@tache.com",
                 style: TextStyle(
                   fontSize: 14,
                 ),
