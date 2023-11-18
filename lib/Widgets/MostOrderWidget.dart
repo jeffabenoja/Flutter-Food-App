@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class MostOrderWidget extends StatelessWidget {
@@ -63,7 +65,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 350.00",
+                            "\Php 650.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -131,7 +133,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 180.00",
+                            "\Php 240.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -199,7 +201,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 560.00",
+                            "\Php 220.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -267,7 +269,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 260.00",
+                            "\Php 180.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
