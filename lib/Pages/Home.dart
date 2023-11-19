@@ -3,11 +3,11 @@
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tache_food/Widgets/AppBarWidget.dart';
-import 'package:tache_food/Widgets/DrawerWidget.dart';
-import 'package:tache_food/Widgets/MenuWidget.dart';
-import 'package:tache_food/Widgets/MostOrderWidget.dart';
-import 'package:tache_food/Widgets/NewItemsWidget.dart';
+import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
+import 'package:tache_food/Widgets/Components/MenuWidget.dart';
+import 'package:tache_food/Widgets/Components/MostOrderWidget.dart';
+import 'package:tache_food/Widgets/Components/NewItemsWidget.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

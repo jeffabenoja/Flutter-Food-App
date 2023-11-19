@@ -51,7 +51,7 @@ class CartBottomNavbar extends StatelessWidget {
                 ),
               ),
               child: Text(
-                "Place Order",
+                "Checkout Order",
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
