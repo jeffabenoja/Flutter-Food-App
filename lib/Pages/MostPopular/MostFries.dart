@@ -84,7 +84,7 @@ class _MostFriesState extends State<MostFries> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _MostFriesState extends State<MostFries> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Overloaded Fries",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _MostFriesState extends State<MostFries> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description should be 3 lines",
+                          "Indulge in a decadent feast with Loaded Cheese and Meat French Fries, a savory and satisfying dish that takes traditional fries to a whole new level. The fries are piled high with a rich and gooey blend of melted cheeses, creating a luscious and creamy base. Common cheese choices include cheddar, mozzarella, and Monterey Jack, ensuring a melty and savory combination that coats each fry. But the extravagance doesn't stop there—this dish goes all-in with an array of hearty meats.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

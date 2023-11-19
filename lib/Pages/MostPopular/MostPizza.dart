@@ -84,7 +84,7 @@ class _MostPizzaState extends State<MostPizza> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _MostPizzaState extends State<MostPizza> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Quattro Formaggi (Four Cheese Pizza)",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _MostPizzaState extends State<MostPizza> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Taste our Most Order Pizza at the very low price, this is our famous pizza and we're confident that you will love it. Try this one, we can assure you that you will enjoy eating our pizza and you will order again. ",
+                          "A cheese lover's delight, Quattro Formaggi is a pizza that features a blend of four distinct cheeses. The typical combination inTacludes mozzarella, Parmesan, Gorgonzola, and fontina cheeses. The result is a rich and creamy pizza with a variety of cheese flavors, ranging from the mild and melty mozzarella to the sharp and tangy Gorgonzola. This pizza is a decadent choice for those who appreciate the indulgence of multiple cheese varieties on a single crust.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
@@ -208,7 +208,9 @@ class _MostPizzaState extends State<MostPizza> {
           ],
         ),
       ),
-      bottomNavigationBar: ItemBottomNavbar(totalItem1: totalItem1,),
+      bottomNavigationBar: ItemBottomNavbar(
+        totalItem1: totalItem1,
+      ),
     );
   }
 }

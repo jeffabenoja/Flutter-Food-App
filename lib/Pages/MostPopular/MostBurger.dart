@@ -84,7 +84,7 @@ class _MostBurgerState extends State<MostBurger> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _MostBurgerState extends State<MostBurger> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Chicken Tache BBQ Burger",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _MostBurgerState extends State<MostBurger> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description should be 3 lines",
+                          "Our Chicken Tache BBQ Burger is a mouthwatering twist on the classic burger, combining the smoky flavors of barbecue with the succulence of grilled chicken. A juicy and seasoned chicken patty takes center stage, grilled to perfection to ensure a tender and flavorful bite. The burger is then generously slathered with tangy and sweet barbecue sauce, adding a rich and savory element to each bite. This burger is a favorite for those who appreciate the hearty satisfaction of grilled chicken paired with the bold and zesty profile of barbecue sauce. It's a flavorful choice that brings together the best of barbecue and burger traditions in a single, delicious package.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

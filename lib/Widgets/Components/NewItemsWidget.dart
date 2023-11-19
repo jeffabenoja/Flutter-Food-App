@@ -427,7 +427,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Koba Salad",
+                                "Koba Crunch Salad",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
@@ -453,7 +453,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\PHP 220.00",
+                                "\PHP 150.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,

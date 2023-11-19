@@ -51,7 +51,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Tache Quattro Formaggi",
+                        "Quattro Formaggi",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -124,7 +124,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Chicken BBQ Burger",
+                        "Chicken Burger",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -197,7 +197,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Lemon Fried Chicken",
+                        "Lemon Chicken",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -270,7 +270,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Tache Overloaded Fries",
+                        "Overloaded Fries",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -343,7 +343,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Tache Watermelon Shake",
+                        "Watermelon Shake",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -416,7 +416,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Koba Crunch Salad",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -424,7 +424,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "Crunchy garden delight.",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -435,7 +435,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\PHP 220.00",
+                            "\PHP 150.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,

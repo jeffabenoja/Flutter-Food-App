@@ -18,7 +18,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
 
   _FourthNewItemState()
       : quantityItem1 = 1,
-        initialPriceItem1 = 220;
+        initialPriceItem1 = 150;
 
   void _incrementQuantity(int item) {
     setState(() {
@@ -102,7 +102,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Koba Salad",
+                              "Koba Crunch Salad",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
