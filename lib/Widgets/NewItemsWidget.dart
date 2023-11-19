@@ -37,7 +37,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "itemPage");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,

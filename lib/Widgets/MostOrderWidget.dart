@@ -38,11 +38,16 @@ class MostOrderWidget extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "images/pizza/pizza2.png",
-                          height: 130,
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "itemPage");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/pizza/pizza2.png",
+                            height: 130,
+                          ),
                         ),
                       ),
                       Text(
