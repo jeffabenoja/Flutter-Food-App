@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
-// import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
 
 class PizzaMenu extends StatefulWidget {
   const PizzaMenu({Key? key}) : super(key: key);
