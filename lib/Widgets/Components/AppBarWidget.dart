@@ -51,8 +51,8 @@ class AppBarWidget extends StatelessWidget {
                 SizedBox(width: 10),
                 Text(
                   'Tache',
-                  style: GoogleFonts.pacifico(
-                    fontSize: 40,
+                  style: GoogleFonts.cinzelDecorative(
+                    fontSize: 60,
                     color: Colors.white,
                   ),
                 ),

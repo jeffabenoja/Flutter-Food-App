@@ -89,8 +89,8 @@ class Home extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     child: Text(
                       "Menu",
-                      style: GoogleFonts.pacifico(
-                        fontSize: 25,
+                      style: GoogleFonts.cinzelDecorative(
+                        fontSize: 35,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
@@ -119,8 +119,8 @@ class Home extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     child: Text(
                       "Popular",
-                      style: GoogleFonts.pacifico(
-                        fontSize: 25,
+                      style: GoogleFonts.cinzelDecorative(
+                        fontSize: 35,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
@@ -149,8 +149,8 @@ class Home extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     child: Text(
                       "Newest",
-                      style: GoogleFonts.pacifico(
-                        fontSize: 25,
+                      style: GoogleFonts.cinzelDecorative(
+                        fontSize: 35,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
