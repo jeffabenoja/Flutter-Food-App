@@ -52,7 +52,6 @@ class DrawerWidget extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            
           ),
 
           ListTile(

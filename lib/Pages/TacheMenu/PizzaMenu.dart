@@ -83,7 +83,7 @@ class _PizzaMenuWidgetState extends State<PizzaMenu> {
                         onRatingUpdate: (index) {},
                       ),
                       Text(
-                        "\Php ${price}",
+                        "\PHP ${price}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.red,

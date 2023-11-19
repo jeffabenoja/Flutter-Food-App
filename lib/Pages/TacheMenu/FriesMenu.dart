@@ -83,7 +83,7 @@ class _FriesMenuWidgetState extends State<FriesMenu> {
                         onRatingUpdate: (index) {},
                       ),
                       Text(
-                        "\Php ${price}",
+                        "\PHP ${price}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.red,
@@ -156,11 +156,31 @@ class _FriesMenuWidgetState extends State<FriesMenu> {
               ),
             ),
           ),
-          _buildFriesItem(0, "Add Name", "Add Description", "160.00"),
-          _buildFriesItem(1, "Add Name", "Add Description", "180.00"),
-          _buildFriesItem(2, "Add Name", "Add Description", "130.00"),
-          _buildFriesItem(3, "Add Name", "Add Description", "110.00"),
-          _buildFriesItem(4, "Add Name", "Add Description", "145.00"),
+          _buildFriesItem(
+              0,
+              "Overloaded Fries",
+              "Dive into a carnival of flavors with our Overloaded Fiesta Fries—a decadent delight that takes traditional fries to new heights. Piled high with a gooey blend of melted cheeses and a symphony of hearty meats, each fry is a journey through indulgence. It's not just a side dish; it's a festive celebration on your palate.",
+              "160.00"),
+          _buildFriesItem(
+              1,
+              "Nacho Nirvana Fries",
+              "Experience the ultimate snack sensation with our Nacho Nirvana Fries—a crunchy symphony of seasoned fries crowned with a fiesta of zesty nacho cheese, jalapeños, and savory toppings. Each bite is a journey through layers of flavor, creating a nacho-inspired masterpiece that transforms ordinary fries into a snack-worthy sensation.",
+              "180.00"),
+          _buildFriesItem(
+              2,
+              "Cheesy Bacon Bliss Fries",
+              "Indulge in a symphony of savory delights with our Cheesy Bacon Bliss Fries—a heavenly combination of crisp fries, smoky bacon, and a gooey blanket of melted cheeses. This irresistible creation is a celebration of comfort food, ensuring each bite is a mouthwatering experience that satisfies your cravings for cheesy, bacon-infused bliss.",
+              "230.00"),
+          _buildFriesItem(
+              3,
+              "Sour Cream Serenity Fries",
+              "Elevate your fry experience with our Sour Cream Serenity Fries—a cool and tangy twist on a classic. Crisp fries meet the creamy richness of sour cream, creating a harmonious balance of textures and flavors. It's not just a side; it's a refreshing journey through the perfect marriage of warm fries and cool, luscious sour cream.",
+              "150.00"),
+          _buildFriesItem(
+              4,
+              "Cheesy Symphony Fries",
+              "Treat your taste buds to a Cheesy Symphony with our irresistible Cheesy Fries. Each golden fry is drenched in a rich, gooey blend of melted cheeses, creating a melody of flavors that's both comforting and indulgent. It's not just a side dish; it's a cheesy delight that turns every fry into a deliciously satisfying experience.",
+              "145.00"),
         ],
       ),
     );

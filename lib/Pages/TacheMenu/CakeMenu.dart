@@ -83,7 +83,7 @@ class _CakeMenuWidgetState extends State<CakeMenu> {
                         onRatingUpdate: (index) {},
                       ),
                       Text(
-                        "\Php ${price}",
+                        "\PHP ${price}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.red,
@@ -156,11 +156,31 @@ class _CakeMenuWidgetState extends State<CakeMenu> {
               ),
             ),
           ),
-          _buildCakeItem(0, "Add Name", "Add Description", "190.00"),
-          _buildCakeItem(1, "Add Name", "Add Description", "180.00"),
-          _buildCakeItem(2, "Add Name", "Add Description", "160.00"),
-          _buildCakeItem(3, "Add Name", "Add Description", "210.00"),
-          _buildCakeItem(4, "Add Name", "Add Description", "125.00"),
+          _buildCakeItem(
+              0,
+              "Carrot Bliss Cake",
+              "Indulge in the sublime delight of our Carrot Bliss Cake—a culinary masterpiece that seamlessly blends wholesome ingredients into a symphony of flavors. Each decadent slice is a celebration of moistness, warmth, and a harmonious marriage of sweet and spiced notes.",
+              "190.00"),
+          _buildCakeItem(
+              1,
+              "Chocolate Strawberry Symphony Cake",
+              "Satisfy your sweet cravings with our Chocolate Strawberry Symphony Cake—a rich chocolate indulgence adorned with luscious strawberries. Every bite is a harmonious blend of velvety cocoa and juicy berries, creating a delectable dance of flavors.",
+              "180.00"),
+          _buildCakeItem(
+              2,
+              "Blueberry Dream Cheesecake",
+              "Dive into a world of flavor with our Blueberry Dream Cheesecake—a creamy indulgence that combines the lusciousness of cheesecake with the burst of sweet, tangy blueberries. Each forkful is a journey through layers of velvety richness and fruity bliss.",
+              "160.00"),
+          _buildCakeItem(
+              3,
+              "Mango Tango Cheesecake",
+              "Experience tropical heaven with our Mango Tango Cheesecake—a velvety delight that marries the creamy allure of cheesecake with the exotic sweetness of ripe mangoes. Each bite is a taste of paradise, a mango-infused escape for your palate.",
+              "210.00"),
+          _buildCakeItem(
+              4,
+              "Strawberry Serenade Shortcake",
+              "Fall in love with our Strawberry Serenade Shortcake—a delicate ensemble of fluffy cake, fresh strawberries, and billows of whipped cream. This classic treat is a sweet serenade that harmonizes lightness and lusciousness in every scrumptious bite.",
+              "125.00"),
         ],
       ),
     );
