@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tache_food/Pages/Cart.dart';
+import 'package:tache_food/Pages/Item.dart';
 import 'Pages/Home.dart';
 
 void main() {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => Home(),
         "cartPage": (context) => Cart(),
+        "itemPage": (context) => Item(),
       },
     );
   }

@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -37,7 +39,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "itemPage");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
