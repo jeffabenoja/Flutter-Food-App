@@ -157,10 +157,26 @@ class _PizzaMenuWidgetState extends State<PizzaMenu> {
               ),
             ),
           ),
-          _buildPizzaItem(0, "Add Name", "Add Description", "580.00"),
-          _buildPizzaItem(1, "Add Name", "Add Description", "650.00"),
-          _buildPizzaItem(2, "Add Name", "Add Description", "480.00"),
-          _buildPizzaItem(3, "Add Name", "Add Description", "420.00"),
+          _buildPizzaItem(
+              0,
+              "Combo Carnival Pizza",
+              "Embark on a flavor adventure with our Combo Carnival Pizza—a tantalizing medley of savory meats, fresh veggies, and a symphony of cheeses. Each slice is a celebration of variety, from the robust pepperoni to the garden-fresh crunch of bell peppers. It's not just a pizza; it's a party on your palate, an explosion of diverse tastes that will leave you craving more.",
+              "680.00"),
+          _buildPizzaItem(
+              1,
+              "Tache Quattro Formaggi (Four Cheese Pizza)",
+              "Indulge in the decadence of Tache Quattro Formaggi— a symphony of four distinct cheeses, including mozzarella, Parmesan, Gorgonzola, and fontina. Each bite delivers a rich and creamy experience, from the mild and melty mozzarella to the sharp and tangy Gorgonzola. A pizza lover's delight, it's a harmonious blend that elevates cheesy indulgence to new heights, creating a truly unforgettable flavor fusion.",
+              "650.00"),
+          _buildPizzaItem(
+              2,
+              "Classic Margherita Elegance",
+              "Savor the simplicity of perfection with our Classic Margherita Elegance. Immerse yourself in the purest flavors as luscious tomato sauce, fresh mozzarella, and fragrant basil come together on a golden, thin crust. Each bite is a culinary ode to simplicity, allowing the quality of the ingredients to shine. Elevate your pizza experience with a touch of sophistication.",
+              "580.00"),
+          _buildPizzaItem(
+              3,
+              "Pepperoni Passion Pizza",
+              "Ignite your taste buds with our Pepperoni Passion Pizza—a fiery feast of flavor that pays homage to the iconic pepperoni. Savory, spicy, and generously piled, each slice is a perfect balance of zesty tomato sauce, gooey mozzarella, and the bold kick of pepperoni. It's not just a pizza; it's a passionate embrace of the classic, ensuring every bite is a symphony of spice and satisfaction.",
+              "520.00"),
           // Add more pizza items as needed...
         ],
       ),
