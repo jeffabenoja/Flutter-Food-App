@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class PizzaMenu extends StatefulWidget {
   const PizzaMenu({Key? key}) : super(key: key);
@@ -146,12 +147,11 @@ class _PizzaMenuWidgetState extends State<PizzaMenu> {
               top: 20,
               left: 10,
             ),
-            child: Align(
-              alignment: Alignment.centerLeft,
+            child: Center(
               child: Text(
-                "Tache Pizza",
-                style: TextStyle(
-                  fontSize: 20,
+                "Pizzas",
+                style: GoogleFonts.cinzelDecorative(
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
                 ),
               ),
