@@ -40,7 +40,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   children: [
                     InkWell(
                       onTap: () {
-                        // Navigator.pushNamed(context, "itemPage");
+                        Navigator.pushNamed(context, "firstNewItem");
                       },
                       child: Container(
                         // width: 230,
@@ -160,7 +160,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "secondNewItem");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
@@ -209,7 +211,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 280.00",
+                                "\Php 260.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -279,7 +281,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "thirdNewItem");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
@@ -398,7 +402,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "fourthNewItem");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
@@ -517,7 +523,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "fifthNewItem");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
@@ -636,7 +644,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "sixthNewItem");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
@@ -755,7 +765,9 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pushNamed(context, "seventhNewItem");
+                      },
                       child: Container(
                         // width: 230,
                         alignment: Alignment.center,
