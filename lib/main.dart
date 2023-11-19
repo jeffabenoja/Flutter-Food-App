@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:tache_food/Pages/Cart.dart';
-import 'package:tache_food/Pages/Item.dart';
+import 'package:tache_food/Pages/MostPopular/MostBurger.dart';
+import 'package:tache_food/Pages/MostPopular/MostChicken.dart';
+import 'package:tache_food/Pages/MostPopular/MostDrinks.dart';
+import 'package:tache_food/Pages/MostPopular/MostFries.dart';
+import 'package:tache_food/Pages/MostPopular/MostPizza.dart';
+import 'package:tache_food/Pages/MostPopular/MostSalad.dart';
+import 'package:tache_food/Pages/TacheMenu/PizzaMenu.dart';
 import 'Pages/Home.dart';
 
 void main() {
@@ -19,7 +25,17 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => Home(),
         "cartPage": (context) => Cart(),
-        "itemPage": (context) => Item(),
+
+        // Most Order Items Page
+        "mostPizzaItem": (context) => MostPizza(),
+        "mostBurgerItem": (context) => MostBurger(),
+        "mostChickenItem": (context) => MostChicken(),
+        "mostFriesItem": (context) => MostFries(),
+        "mostDrinksItem": (context) => MostDrinks(),
+        "mostSaladItem": (context) => MostSalad(),
+
+        // Tache Menu Page
+        "pizzaMenu": (context) => PizzaMenu(),
       },
     );
   }

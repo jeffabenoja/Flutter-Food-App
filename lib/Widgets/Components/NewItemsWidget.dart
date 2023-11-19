@@ -40,7 +40,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                   children: [
                     InkWell(
                       onTap: () {
-                        Navigator.pushNamed(context, "itemPage");
+                        // Navigator.pushNamed(context, "itemPage");
                       },
                       child: Container(
                         // width: 230,

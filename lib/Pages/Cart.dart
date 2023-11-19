@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:tache_food/Widgets/AppBarWidget.dart';
-import 'package:tache_food/Widgets/CartBottomNavbar.dart';
-import 'package:tache_food/Widgets/DrawerWidget.dart';
+import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/BottomNavbar/CartBottomNavbar.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class Cart extends StatefulWidget {
   const Cart({Key? key}) : super(key: key);
@@ -51,9 +51,9 @@ class _CartItemState extends State<Cart> {
         quantityItem1--;
       } else if (item == 2 && quantityItem2 > 1) {
         quantityItem2--;
-      } else if (item == 3 && quantityItem2 > 1) {
+      } else if (item == 3 && quantityItem3 > 1) {
         quantityItem3--;
-      } else if (item == 4 && quantityItem2 > 4) {
+      } else if (item == 4 && quantityItem4 > 1) {
         quantityItem4--;
       }
     });

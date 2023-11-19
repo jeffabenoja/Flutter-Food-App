@@ -40,7 +40,7 @@ class MostOrderWidget extends StatelessWidget {
                     children: [
                       InkWell(
                         onTap: () {
-                          Navigator.pushNamed(context, "itemPage");
+                          Navigator.pushNamed(context, "mostPizzaItem");
                         },
                         child: Container(
                           alignment: Alignment.center,
@@ -111,11 +111,16 @@ class MostOrderWidget extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "images/burger/burger2.png",
-                          height: 130,
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "mostBurgerItem");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/burger/burger2.png",
+                            height: 130,
+                          ),
                         ),
                       ),
                       Text(
@@ -179,11 +184,16 @@ class MostOrderWidget extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "images/chicken/chicken2.png",
-                          height: 130,
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "mostChickenItem");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/chicken/chicken2.png",
+                            height: 130,
+                          ),
                         ),
                       ),
                       Text(
@@ -247,11 +257,16 @@ class MostOrderWidget extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "images/fries/fries2.png",
-                          height: 130,
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "mostFriesItem");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/fries/fries2.png",
+                            height: 130,
+                          ),
                         ),
                       ),
                       Text(
@@ -315,11 +330,16 @@ class MostOrderWidget extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Container(
-                        alignment: Alignment.center,
-                        child: Image.asset(
-                          "images/drinks/drinks2.png",
-                          height: 130,
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "mostDrinksItem");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/drinks/drinks2.png",
+                            height: 130,
+                          ),
                         ),
                       ),
                       Text(
@@ -362,6 +382,78 @@ class MostOrderWidget extends StatelessWidget {
               ),
             ),
 
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 7),
+              child: Container(
+                width: 170,
+                height: 225,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.grey.withOpacity(0.5),
+                        spreadRadius: 3,
+                        blurRadius: 10,
+                        offset: Offset(0, 3),
+                      ),
+                    ]),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      InkWell(
+                        onTap: () {
+                          Navigator.pushNamed(context, "mostSaladItem");
+                        },
+                        child: Container(
+                          alignment: Alignment.center,
+                          child: Image.asset(
+                            "images/newest/new5.png",
+                            height: 130,
+                          ),
+                        ),
+                      ),
+                      Text(
+                        "Add Name",
+                        style: TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        "Add Description",
+                        style: TextStyle(
+                          fontSize: 12,
+                          // fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 7),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "\Php 220.00",
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: Colors.red,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Icon(
+                            Icons.favorite_border,
+                            color: Colors.red,
+                            size: 18,
+                          )
+                        ],
+                      )
+                    ],
+                  ),
+                ),
+              ),
+            ),
             // Next Component
           ],
         ),
