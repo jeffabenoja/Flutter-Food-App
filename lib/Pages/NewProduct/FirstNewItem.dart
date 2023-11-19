@@ -84,7 +84,7 @@ class _FirstNewItemState extends State<FirstNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _FirstNewItemState extends State<FirstNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Special Garganelli Alfredo",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _FirstNewItemState extends State<FirstNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "Indulge in a luxurious and creamy dining experience with Garganelli Alfredo. This pasta dish combines the delightful texture of garganelli—a tubular pasta with ridges—with a velvety Alfredo sauce that's rich in flavor and elegance.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

@@ -64,14 +64,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Tache Special Garganelli Alfredo",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Try our newest {name} it taste very good. Once you try this you'll forget your name.",
+                                "Indulge in a luxurious and creamy dining experience with Garganelli Alfredo. This pasta dish combines the delightful texture of garganelli—a tubular pasta with ridges—with a velvety Alfredo sauce that's rich in flavor and elegance.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -90,7 +90,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 280.00",
+                                "\PHP 280.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -185,21 +185,21 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Tache ala Meatballs Spaghetti",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Add Description",
+                                "Indulge in a classic Italian comfort dish with Meatballs Spaghetti. This iconic combination features perfectly cooked spaghetti noodles generously coated in a rich and savory tomato sauce, adorned with hearty, flavorful meatballs.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
                                 ),
                               ),
                               RatingBar.builder(
-                                initialRating: 3,
+                                initialRating: 4,
                                 minRating: 1,
                                 direction: Axis.horizontal,
                                 itemCount: 5,
@@ -211,7 +211,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 260.00",
+                                "\PHP 260.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -306,14 +306,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Tache Carrot Cake",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Add Description",
+                                "Indulge your senses in the sublime delight of our signature Carrot Cake—a culinary masterpiece that seamlessly blends wholesome ingredients into a symphony of flavors and textures.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -332,7 +332,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 190.00",
+                                "\PHP 190.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -427,21 +427,21 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Koba Salad",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Add Description",
+                                "A timeless favorite, the Classic Garden Salad is a vibrant medley of crisp mixed greens, juicy tomatoes, cucumber slices, and colorful bell peppers. ",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
                                 ),
                               ),
                               RatingBar.builder(
-                                initialRating: 3,
+                                initialRating: 4,
                                 minRating: 1,
                                 direction: Axis.horizontal,
                                 itemCount: 5,
@@ -453,7 +453,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 220.00",
+                                "\PHP 220.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -548,14 +548,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Tache Red Velvet Chocolate Cake",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Add Description",
+                                "Our Red Velvet Chocolate Cake is more than a dessert—it's an exquisite symphony of flavors, a visual masterpiece, and a decadent treat that beckons those with a penchant for the extraordinary.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -574,7 +574,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 180.00",
+                                "\PHP 180.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -669,14 +669,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Ceasar Salad",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Add Description",
+                                "Embark on a Mediterranean journey with our Ceasar Salad, featuring a harmonious combination of tomatoes, cucumbers, red onions, Kalamata olives, and crumbled feta cheese.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -695,7 +695,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 150.00",
+                                "\PHP 150.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,
@@ -790,14 +790,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Add Name",
+                                "Tache Lemon Bliss Iced Tea",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Add Description",
+                                "Quench your thirst with a burst of citrusy refreshment! Our Lemon Bliss Iced Tea is a harmonious blend of premium tea leaves, chilled to perfection and infused with the bright essence of sun-kissed lemons.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -816,7 +816,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 onRatingUpdate: (index) {},
                               ),
                               Text(
-                                "\Php 130.00",
+                                "\PHP 130.00",
                                 style: TextStyle(
                                   fontSize: 15,
                                   color: Colors.red,

@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:clippy_flutter/arc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -84,7 +86,7 @@ class _SecondNewItemState extends State<SecondNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +104,7 @@ class _SecondNewItemState extends State<SecondNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache ala Meatballs Spaghetti",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +156,7 @@ class _SecondNewItemState extends State<SecondNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "Indulge in a classic Italian comfort dish with Meatballs Spaghetti. This iconic combination features perfectly cooked spaghetti noodles generously coated in a rich and savory tomato sauce, adorned with hearty, flavorful meatballs.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+
 import 'package:clippy_flutter/arc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -73,7 +75,7 @@ class _SixthNewItemState extends State<SixthNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             RatingBar.builder(
-                              initialRating: 4,
+                              initialRating: 5,
                               minRating: 1,
                               direction: Axis.horizontal,
                               itemCount: 5,
@@ -84,7 +86,7 @@ class _SixthNewItemState extends State<SixthNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +104,7 @@ class _SixthNewItemState extends State<SixthNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Ceasar Salad",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +156,7 @@ class _SixthNewItemState extends State<SixthNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "Embark on a Mediterranean journey with our Ceasar Salad, featuring a harmonious combination of tomatoes, cucumbers, red onions, Kalamata olives, and crumbled feta cheese. Drizzled with extra virgin olive oil and sprinkled with oregano, this salad captures the essence of Greek cuisine with its bold flavors and briny notes.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

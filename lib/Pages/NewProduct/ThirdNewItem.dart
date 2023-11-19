@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:clippy_flutter/arc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -73,7 +75,7 @@ class _ThirdNewItemState extends State<ThirdNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             RatingBar.builder(
-                              initialRating: 4,
+                              initialRating: 5,
                               minRating: 1,
                               direction: Axis.horizontal,
                               itemCount: 5,
@@ -84,7 +86,7 @@ class _ThirdNewItemState extends State<ThirdNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +104,7 @@ class _ThirdNewItemState extends State<ThirdNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Carrot Cake",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +156,7 @@ class _ThirdNewItemState extends State<ThirdNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "Indulge your senses in the sublime delight of our signature Carrot Cake—a culinary masterpiece that seamlessly blends wholesome ingredients into a symphony of flavors and textures. Each decadent slice is a celebration of moistness, warmth, and a harmonious marriage of sweet and spiced notes. Crafted with care, our Carrot Cake features a luscious base enriched with finely grated carrots, providing a natural sweetness and a moist crumb. The velvety batter is expertly spiced with cinnamon and nutmeg, infusing every bite with a comforting warmth that evokes the essence of home.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
