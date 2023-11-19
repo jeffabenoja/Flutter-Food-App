@@ -14,17 +14,17 @@ class DrawerWidget extends StatelessWidget {
             padding: EdgeInsets.zero,
             child: UserAccountsDrawerHeader(
               decoration: BoxDecoration(
-                color: Color.fromARGB(255, 255, 97, 29),
+                color: Color.fromARGB(255, 255, 150, 80),
               ),
               accountName: Text(
-                "Tache Burger",
+                "Tache Restaurant",
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
               ),
               accountEmail: Text(
-                "tarche.burger@tache.com",
+                "tache.restaurant@tache.com",
                 style: TextStyle(
                   fontSize: 14,
                 ),
