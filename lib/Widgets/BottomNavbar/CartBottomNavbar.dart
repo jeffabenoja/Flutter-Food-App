@@ -30,7 +30,7 @@ class CartBottomNavbar extends StatelessWidget {
                   width: 15,
                 ),
                 Text(
-                  "\Php $grandTotal",
+                  "\PHP $grandTotal",
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,

@@ -19,7 +19,7 @@ class _MostSaladState extends State<MostSalad> {
 
   _MostSaladState()
       : quantityItem1 = 1,
-        initialPriceItem1 = 220;
+        initialPriceItem1 = 150;
 
   void _incrementQuantity(int item) {
     setState(() {
@@ -85,7 +85,7 @@ class _MostSaladState extends State<MostSalad> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -103,7 +103,7 @@ class _MostSaladState extends State<MostSalad> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Koba Crunch Salad",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -155,7 +155,7 @@ class _MostSaladState extends State<MostSalad> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description should be 3 lines",
+                          "A timeless favorite, the Classic Garden Salad is a vibrant medley of crisp mixed greens, juicy tomatoes, cucumber slices, and colorful bell peppers. Topped with shredded carrots and radishes, this refreshing salad offers a delightful crunch and a burst of freshness. It's often served with a light vinaigrette or ranch dressing.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

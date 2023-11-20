@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 class MenuWidget extends StatelessWidget {
@@ -37,10 +39,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/pizza/pizza1.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/pizza/pizza1.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Pizzas",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -68,10 +82,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/burger/burger1.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/burger/burger1.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Burgers",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -99,10 +125,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/newest/new69.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/newest/new69.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Salads",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -130,10 +168,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/fries/fries1.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/fries/fries1.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Fries",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -161,10 +211,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/drinks/drinks1.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/drinks/drinks1.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Drinks",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -192,10 +254,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/newest/new3.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/newest/new3.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Cakes",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -223,10 +297,22 @@ class MenuWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Image.asset(
-                    "images/chicken/chicken2.png",
-                    width: 50,
-                    height: 50,
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        "images/chicken/chicken2.png",
+                        width: 90,
+                        height: 90,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        "Chicken",
+                        style: GoogleFonts.cinzelDecorative(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
