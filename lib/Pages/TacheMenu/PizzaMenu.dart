@@ -5,8 +5,6 @@ import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
 import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
-
 
 class PizzaMenu extends StatefulWidget {
   const PizzaMenu({Key? key}) : super(key: key);
