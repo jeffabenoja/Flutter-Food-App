@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class PizzaMenu extends StatefulWidget {
   const PizzaMenu({Key? key}) : super(key: key);
@@ -164,6 +165,7 @@ class _PizzaMenuWidgetState extends State<PizzaMenu> {
           // Add more pizza items as needed...
         ],
       ),
+      drawer: DrawerWidget(),
     );
   }
 }

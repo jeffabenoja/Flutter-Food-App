@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class ChickenMenu extends StatefulWidget {
   const ChickenMenu({Key? key}) : super(key: key);
@@ -163,6 +164,7 @@ class _ChickenenuWidgetState extends State<ChickenMenu> {
           _buildChickenItem(4, "Add Name", "Add Description", "245.00"),
         ],
       ),
+      drawer: DrawerWidget(),
     );
   }
 }

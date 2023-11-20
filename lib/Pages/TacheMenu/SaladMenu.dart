@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class SaladMenu extends StatefulWidget {
   const SaladMenu({Key? key}) : super(key: key);
@@ -164,6 +165,7 @@ class _SaladMenuWidgetState extends State<SaladMenu> {
           _buildSaladItem(5, "Add Name", "Add Description", "150.00"),
         ],
       ),
+      drawer: DrawerWidget(),
     );
   }
 }
