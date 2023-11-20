@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -82,7 +84,7 @@ class _BurgerMenuWidgetState extends State<BurgerMenu> {
                         onRatingUpdate: (index) {},
                       ),
                       Text(
-                        "\Php ${price}",
+                        "\PHP ${price}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.red,
@@ -145,22 +147,41 @@ class _BurgerMenuWidgetState extends State<BurgerMenu> {
               top: 20,
               left: 10,
             ),
-            child: Align(
-              alignment: Alignment.centerLeft,
+            child: Center(
               child: Text(
-                "Tache Pizza",
-                style: TextStyle(
-                  fontSize: 20,
+                "Burgers",
+                style: GoogleFonts.cinzelDecorative(
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
           ),
-          _buildBurgerItem(0, "Add Name", "Add Description", "280.00"),
-          _buildBurgerItem(1, "Add Name", "Add Description", "240.00"),
-          _buildBurgerItem(2, "Add Name", "Add Description", "210.00"),
-          _buildBurgerItem(3, "Add Name", "Add Description", "120.00"),
-          _buildBurgerItem(4, "Add Name", "Add Description", "190.00"),
+          _buildBurgerItem(
+              0,
+              "Double Cheese Elegance",
+              "Revel in the indulgence of our Double Cheese Elegance—a symphony of flavors stacked between sesame seed buns. Caramelized onions add a sweet note to the succulent duo of beef patties, crowned with the melty allure of two cheese slices. This burger is an exquisite dance of savory and sweet, creating a decadent experience for cheese lovers.",
+              "280.00"),
+          _buildBurgerItem(
+              1,
+              "Southern Charm Chicken Burger",
+              "Experience Southern charm with our Chicken Bliss Burger—a crispy fried chicken fillet nestled between soft buns. Crowned with mayo, lettuce, and cucumber, this burger is a harmonious medley of crunchy, creamy, and savory notes, offering a satisfying bite that celebrates the comforting appeal of Southern-style chicken.",
+              "280.00"),
+          _buildBurgerItem(
+              2,
+              "Bacon Bliss Burger",
+              "Unleash your taste buds with our Bacon Bliss Burger—a sesame bun masterpiece featuring bacon, a savory beef patty, and melty cheese. Enhanced by flavored mayo and crisp cucumber, every bite is a fusion of smoky, savory, and creamy indulgence. It's not just a burger; it's a Bacon Bliss sensation.",
+              "210.00"),
+          _buildBurgerItem(
+              3,
+              "TLC Double Delight Burger",
+              "Treat your taste buds to the TLC Double Delight Burger—a vibrant creation with two beef patties, tomato, lettuce, and onion. The bun, adorned with a burst of colored mayo, adds a playful touch to the classic combination. Each bite is a flavor explosion, a feast for the eyes and the palate, giving you a little extra tender loving care with every savory mouthful.",
+              "230.00"),
+          _buildBurgerItem(
+              4,
+              "Classic Double Cheeseburger",
+              "Dive into nostalgia with our Classic Double Cheeseburger—a sesame bun delight boasting two beef patties, mayo-ketchup harmony, and the creamy allure of two cheese slices. Topped with crisp lettuce and pickles, this burger is a timeless ode to the perfect balance of savory, tangy, and cheesy goodness.",
+              "200.00"),
         ],
       ),
     );

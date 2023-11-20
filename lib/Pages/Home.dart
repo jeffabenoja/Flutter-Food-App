@@ -61,7 +61,7 @@ class Home extends StatelessWidget {
                           ),
                           child: TextFormField(
                             decoration: InputDecoration(
-                              hintText: "What are your cravings now?",
+                              hintText: "What are your cravings right now?",
                               border: InputBorder.none,
                             ),
                           ),
@@ -88,9 +88,10 @@ class Home extends StatelessWidget {
                     color: Color.fromARGB(255, 255, 150, 80),
                     padding: EdgeInsets.all(5),
                     child: Text(
-                      "Menu",
-                      style: GoogleFonts.pacifico(
-                        fontSize: 25,
+                      "Menus",
+                      style: GoogleFonts.cinzelDecorative(
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
@@ -119,8 +120,9 @@ class Home extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     child: Text(
                       "Popular",
-                      style: GoogleFonts.pacifico(
-                        fontSize: 25,
+                      style: GoogleFonts.cinzelDecorative(
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,
@@ -149,8 +151,9 @@ class Home extends StatelessWidget {
                     padding: EdgeInsets.all(5),
                     child: Text(
                       "Newest",
-                      style: GoogleFonts.pacifico(
-                        fontSize: 25,
+                      style: GoogleFonts.cinzelDecorative(
+                        fontSize: 35,
+                        fontWeight: FontWeight.bold,
                         color: Colors.white,
                       ),
                       textAlign: TextAlign.center,

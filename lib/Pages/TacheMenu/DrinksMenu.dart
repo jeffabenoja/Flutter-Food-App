@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DrinksMenu extends StatefulWidget {
   const DrinksMenu({Key? key}) : super(key: key);
@@ -82,7 +83,7 @@ class _DrinksMenuWidgetState extends State<DrinksMenu> {
                         onRatingUpdate: (index) {},
                       ),
                       Text(
-                        "\Php ${price}",
+                        "\PHP ${price}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.red,
@@ -145,22 +146,41 @@ class _DrinksMenuWidgetState extends State<DrinksMenu> {
               top: 20,
               left: 10,
             ),
-            child: Align(
-              alignment: Alignment.centerLeft,
+            child: Center(
               child: Text(
-                "Tache Pizza",
-                style: TextStyle(
-                  fontSize: 20,
+                "Drinks",
+                style: GoogleFonts.cinzelDecorative(
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
           ),
-          _buildDrinksItem(0, "Add Name", "Add Description", "130.00"),
-          _buildDrinksItem(1, "Add Name", "Add Description", "120.00"),
-          _buildDrinksItem(2, "Add Name", "Add Description", "110.00"),
-          _buildDrinksItem(3, "Add Name", "Add Description", "90.00"),
-          _buildDrinksItem(4, "Add Name", "Add Description", "75.00"),
+          _buildDrinksItem(
+              0,
+              "Lemon Zest Iced Tea",
+              "Quench your thirst with our Lemon Zest Iced Tea—an invigorating blend of premium tea leaves, chilled to perfection, and infused with the bright essence of sun-kissed lemons. It's a citrusy symphony that strikes the perfect balance between sweet and tart, offering a refreshing pick-me-up with every sip.",
+              "130.00"),
+          _buildDrinksItem(
+              1,
+              "Watermelon Wave Juice",
+              "Ride the wave of refreshment with our Watermelon Wave Juice—a vibrant and hydrating beverage capturing the essence of summer. Sip into the sweet and cooling experience of ripe watermelon, a delicious oasis in every gulp.",
+              "120.00"),
+          _buildDrinksItem(
+              2,
+              "Tropical Pineapple Bliss",
+              "Taste the tropics with our Tropical Pineapple Bliss—a luscious juice that transports you to paradise with the pure, sun-kissed flavor of ripe pineapples. Each sip is a tropical escape, offering a sweet and tangy symphony of refreshment.",
+              "110.00"),
+          _buildDrinksItem(
+              3,
+              "Tropical Pineapple Bliss",
+              "Embark on a flavor journey with our Mango Tango Elixir—a golden nectar of pure mango goodness. Savor the tropical sweetness and indulge in the rich, velvety taste of ripe mangoes in every sip. It's not just a juice; it's a dance of tropical flavors on your palate.",
+              "90.00"),
+          _buildDrinksItem(
+              4,
+              "Classic Cola Quencher",
+              "Satisfy your cola cravings with our Classic Cola Quencher—a timeless beverage that fizzes with nostalgia. Experience the perfect harmony of effervescence and sweetness in every bubbly sip, making it a classic choice for those who appreciate the familiar taste of a well-loved cola.",
+              "75.00"),
         ],
       ),
     );

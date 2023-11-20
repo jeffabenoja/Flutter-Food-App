@@ -29,7 +29,7 @@ class ItemBottomNavbar extends StatelessWidget {
                   width: 15,
                 ),
                 Text(
-                  "\Php $totalItem1.00",
+                  "\PHP $totalItem1.00",
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,

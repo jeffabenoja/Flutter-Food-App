@@ -18,7 +18,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
 
   _FourthNewItemState()
       : quantityItem1 = 1,
-        initialPriceItem1 = 220;
+        initialPriceItem1 = 150;
 
   void _incrementQuantity(int item) {
     setState(() {
@@ -84,7 +84,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Koba Crunch Salad",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "A timeless favorite, the Classic Garden Salad is a vibrant medley of crisp mixed greens, juicy tomatoes, cucumber slices, and colorful bell peppers. Topped with shredded carrots and radishes, this refreshing salad offers a delightful crunch and a burst of freshness. It's often served with a light vinaigrette or ranch dressing.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

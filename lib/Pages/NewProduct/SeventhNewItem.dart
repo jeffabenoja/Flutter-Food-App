@@ -73,7 +73,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             RatingBar.builder(
-                              initialRating: 4,
+                              initialRating: 5,
                               minRating: 1,
                               direction: Axis.horizontal,
                               itemCount: 5,
@@ -84,7 +84,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Lemon Bliss Iced Tea",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "Quench your thirst with a burst of citrusy refreshment! Our Lemon Bliss Iced Tea is a harmonious blend of premium tea leaves, chilled to perfection and infused with the bright essence of sun-kissed lemons. This revitalizing beverage strikes the perfect balance between sweet and tart, offering a symphony of flavors that dance on your taste buds. Served over ice, it's the ultimate cool companion for a sunny day, providing a zesty pick-me-up that's both invigorating and satisfying. Experience the pure joy of sipping on sunshine with every sip of our Tache Lemon Bliss Iced Tea.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

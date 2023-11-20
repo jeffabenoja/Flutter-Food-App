@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SaladMenu extends StatefulWidget {
   const SaladMenu({Key? key}) : super(key: key);
@@ -82,7 +83,7 @@ class _SaladMenuWidgetState extends State<SaladMenu> {
                         onRatingUpdate: (index) {},
                       ),
                       Text(
-                        "\Php ${price}",
+                        "\PHP ${price}",
                         style: TextStyle(
                           fontSize: 15,
                           color: Colors.red,
@@ -145,23 +146,46 @@ class _SaladMenuWidgetState extends State<SaladMenu> {
               top: 20,
               left: 10,
             ),
-            child: Align(
-              alignment: Alignment.centerLeft,
+            child: Center(
               child: Text(
-                "Tache Pizza",
-                style: TextStyle(
-                  fontSize: 20,
+                "Salads",
+                style: GoogleFonts.cinzelDecorative(
+                  fontSize: 35,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             ),
           ),
-          _buildSaladItem(0, "Add Name", "Add Description", "180.00"),
-          _buildSaladItem(1, "Add Name", "Add Description", "210.00"),
-          _buildSaladItem(2, "Add Name", "Add Description", "240.00"),
-          _buildSaladItem(3, "Add Name", "Add Description", "180.00"),
-          _buildSaladItem(4, "Add Name", "Add Description", "220.00"),
-          _buildSaladItem(5, "Add Name", "Add Description", "150.00"),
+          _buildSaladItem(
+              0,
+              "Garden Harvest Salad",
+              "Immerse yourself in a symphony of freshness with our Garden Harvest Salad—a vibrant medley of crisp mixed greens, juicy tomatoes, cucumber slices, and colorful bell peppers. Topped with shredded carrots and radishes, this veggie delight offers a delightful crunch and a burst of garden-fresh flavors.",
+              "180.00"),
+          _buildSaladItem(
+              1,
+              "Grilled Chicken Bliss Salad",
+              "Savor the succulence with our Grilled Chicken Bliss Salad—a hearty blend of tender grilled chicken, mixed greens, cherry tomatoes, and cucumbers. Topped with a flavorful dressing, each bite is a journey through the perfect harmony of protein-packed satisfaction and crisp, refreshing greens.",
+              "210.00"),
+          _buildSaladItem(
+              2,
+              "Caesar Crown Salad",
+              "Embark on a Mediterranean journey with our Caesar Crown Salad—a harmonious combination of romaine lettuce, cherry tomatoes, croutons, and Parmesan cheese. Drizzled with our signature Caesar dressing, it captures the essence of classic Caesar salads with bold flavors and briny notes.",
+              "240.00"),
+          _buildSaladItem(
+              3,
+              "Creamy Potato Serenade Salad",
+              "Indulge in comfort with our Creamy Potato Serenade Salad—a velvety blend of perfectly boiled potatoes, crisp celery, and a creamy dressing. Each bite is a comforting melody of textures and flavors, creating a classic potato salad experience that satisfies every craving.",
+              "180.00"),
+          _buildSaladItem(
+              4,
+              "Veggie Provolone Symphony Salad",
+              "Elevate your veggie experience with our Veggie Provolone Symphony Salad—a colorful blend of crisp mixed greens, cherry tomatoes, cucumber slices, and bell peppers, topped with generous slices of creamy provolone cheese. It's not just a salad; it's a symphony of textures and flavors, celebrating the perfect union of fresh vegetables and indulgent cheese.",
+              "220.00"),
+          _buildSaladItem(
+              5,
+              "Mediterranean Chicken Delight Salad",
+              "Escape to the Mediterranean with our Chicken Delight Salad—fresh lettuce, juicy tomatoes, grilled chicken, red onions, Kalamata olives, and crisp cucumbers. Drizzled with zesty vinaigrette, each bite is a savory journey through vibrant flavors, offering a delightful crunch and a burst of satisfaction. It's not just a salad; it's an escape on your plate, a perfect balance of freshness and protein-packed bliss.",
+              "150.00"),
         ],
       ),
     );

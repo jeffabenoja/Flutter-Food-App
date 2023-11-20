@@ -51,7 +51,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Quattro Formaggi",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -59,7 +59,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "A cheese lover's delight.",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -70,7 +70,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 650.00",
+                            "\PHP 650.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -124,7 +124,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Chicken Burger",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -132,7 +132,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "A classic with a twist.",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -143,7 +143,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 240.00",
+                            "\PHP 240.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -197,7 +197,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Lemon Chicken",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -205,7 +205,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "Crispy and zesty!",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -216,7 +216,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 220.00",
+                            "\PHP 220.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -270,7 +270,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Overloaded Fries",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -278,7 +278,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "Savory and satisfying.",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -289,7 +289,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 180.00",
+                            "\PHP 180.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -343,7 +343,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Watermelon Shake",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -351,7 +351,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "Refreshingly sweet.",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -362,7 +362,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 120.00",
+                            "\PHP 120.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,
@@ -416,7 +416,7 @@ class MostOrderWidget extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        "Add Name",
+                        "Koba Crunch Salad",
                         style: TextStyle(
                           fontSize: 17,
                           fontWeight: FontWeight.bold,
@@ -424,7 +424,7 @@ class MostOrderWidget extends StatelessWidget {
                       ),
                       SizedBox(height: 4),
                       Text(
-                        "Add Description",
+                        "Crunchy garden delight.",
                         style: TextStyle(
                           fontSize: 12,
                           // fontWeight: FontWeight.bold,
@@ -435,7 +435,7 @@ class MostOrderWidget extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(
-                            "\Php 220.00",
+                            "\PHP 150.00",
                             style: TextStyle(
                               fontSize: 15,
                               color: Colors.red,

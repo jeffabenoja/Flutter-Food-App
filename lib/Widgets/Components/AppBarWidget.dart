@@ -52,7 +52,7 @@ class AppBarWidget extends StatelessWidget {
                 Text(
                   'Tache',
                   style: GoogleFonts.pacifico(
-                    fontSize: 40,
+                    fontSize: 60,
                     color: Colors.white,
                   ),
                 ),

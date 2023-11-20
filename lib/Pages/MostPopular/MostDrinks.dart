@@ -84,7 +84,7 @@ class _MostDrinksState extends State<MostDrinks> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _MostDrinksState extends State<MostDrinks> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Watermelon Shake",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _MostDrinksState extends State<MostDrinks> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description should be 3 lines",
+                          "Quench your thirst and refresh your senses with a delicious and hydrating Watermelon Shake. This vibrant and fruity beverage captures the essence of summer in a glass, providing a sweet and cooling experience. It's a simple yet delightful beverage that celebrates the natural sweetness of watermelon in a cool and satisfying way.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

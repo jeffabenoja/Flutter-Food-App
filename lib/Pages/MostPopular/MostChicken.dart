@@ -84,7 +84,7 @@ class _MostChickenState extends State<MostChicken> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _MostChickenState extends State<MostChicken> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Special Fried Chicken with Lemon",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _MostChickenState extends State<MostChicken> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description should be 3 lines",
+                          "Try our best special Fried Chicken with Lemon it is a delightful and zesty dish that combines the crispy goodness of fried chicken with the bright and citrusy flavors of lemon. The dish typically starts with succulent chicken pieces, coated in a seasoned batter or breading that crisps up beautifully when fried to a golden brown perfection.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

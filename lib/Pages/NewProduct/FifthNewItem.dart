@@ -84,7 +84,7 @@ class _FifthNewItemState extends State<FifthNewItem> {
                               onRatingUpdate: (index) {},
                             ),
                             Text(
-                              "\Php $totalItem1.00",
+                              "\PHP $totalItem1.00",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class _FifthNewItemState extends State<FifthNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Add Name",
+                              "Tache Red Velvet Chocolate Cake",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ class _FifthNewItemState extends State<FifthNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Description Should be 3 lines ",
+                          "Our Red Velvet Chocolate Cake is more than a dessert—it's an exquisite symphony of flavors, a visual masterpiece, and a decadent treat that beckons those with a penchant for the extraordinary. Each bite is a celebration of the artistry and craftsmanship that goes into creating a truly memorable dessert experience.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
