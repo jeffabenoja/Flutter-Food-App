@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class BurgerMenu extends StatefulWidget {
   const BurgerMenu({Key? key}) : super(key: key);
@@ -184,6 +185,7 @@ class _BurgerMenuWidgetState extends State<BurgerMenu> {
               "200.00"),
         ],
       ),
+      drawer: DrawerWidget(),
     );
   }
 }

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FriesMenu extends StatefulWidget {
@@ -183,6 +184,7 @@ class _FriesMenuWidgetState extends State<FriesMenu> {
               "145.00"),
         ],
       ),
+      drawer: DrawerWidget(),
     );
   }
 }

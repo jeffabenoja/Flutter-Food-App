@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
 import 'package:tache_food/Widgets/BottomNavbar/ItemBottomNavbar.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class MostDrinks extends StatefulWidget {
   const MostDrinks({Key? key}) : super(key: key);
@@ -208,6 +209,7 @@ class _MostDrinksState extends State<MostDrinks> {
           ],
         ),
       ),
+      drawer: DrawerWidget(),
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),

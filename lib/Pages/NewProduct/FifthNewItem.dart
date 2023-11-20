@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
 import 'package:tache_food/Widgets/BottomNavbar/ItemBottomNavbar.dart';
+import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 
 class FifthNewItem extends StatefulWidget {
   const FifthNewItem({Key? key}) : super(key: key);
@@ -211,6 +212,7 @@ class _FifthNewItemState extends State<FifthNewItem> {
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),
+      drawer: DrawerWidget(),
     );
   }
 }

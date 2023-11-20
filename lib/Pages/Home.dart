@@ -181,17 +181,6 @@ class Home extends StatelessWidget {
             offset: Offset(0, 3),
           ),
         ]),
-
-        // Original remove the other one if there any error
-        // child: FloatingActionButton(
-        //   onPressed: () {},
-        //   child: Icon(
-        //     CupertinoIcons.cart,
-        //     size: 28,
-        //     color: Color.fromARGB(255, 255, 97, 29),
-        //   ),
-        //   backgroundColor: Colors.white,
-        // ),
         child: FloatingActionButton(
           onPressed: () {
             Navigator.pushNamed(context, "cartPage");
