@@ -103,7 +103,7 @@ class _FirstNewItemState extends State<FirstNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Special Garganelli Alfredo",
+                              "Garganelli Alfredo",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -155,7 +155,7 @@ class _FirstNewItemState extends State<FirstNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Indulge in a luxurious and creamy dining experience with Garganelli Alfredo. This pasta dish combines the delightful texture of garganelli—a tubular pasta with ridges—with a velvety Alfredo sauce that's rich in flavor and elegance.",
+                          "Delight in the perfection of twisted pasta tubes, Garganelli, enveloped in a luxuriously creamy Alfredo sauce, creating a velvety and indulgent pasta experience.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
@@ -212,7 +212,7 @@ class _FirstNewItemState extends State<FirstNewItem> {
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),
-          drawer: DrawerWidget(),
+      drawer: DrawerWidget(),
     );
   }
 }

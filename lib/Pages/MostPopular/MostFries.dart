@@ -103,7 +103,7 @@ class _MostFriesState extends State<MostFries> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Overloaded Fries",
+                              "Overloaded Fries",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,

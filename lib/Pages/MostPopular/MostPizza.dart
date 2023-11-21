@@ -102,7 +102,7 @@ class _MostPizzaState extends State<MostPizza> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Quattro Formaggi (Four Cheese Pizza)",
+                              "Quattro Formaggi",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,

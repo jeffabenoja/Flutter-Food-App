@@ -64,14 +64,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Tache Special Garganelli Alfredo",
+                                "Garganelli Alfredo",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Indulge in a luxurious and creamy dining experience with Garganelli Alfredo. This pasta dish combines the delightful texture of garganelli—a tubular pasta with ridges—with a velvety Alfredo sauce that's rich in flavor and elegance.",
+                                "Creamy pasta delight with twisted tubes in Alfredo sauce.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -185,14 +185,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Tache ala Meatballs Spaghetti",
+                                "Meatballs Spag",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Indulge in a classic Italian comfort dish with Meatballs Spaghetti. This iconic combination features perfectly cooked spaghetti noodles generously coated in a rich and savory tomato sauce, adorned with hearty, flavorful meatballs.",
+                                "Succulent meatballs on classic spaghetti in savory tomato sauce.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -306,14 +306,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Tache Carrot Cake",
+                                "Carrot Cake",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Indulge your senses in the sublime delight of our signature Carrot Cake—a culinary masterpiece that seamlessly blends wholesome ingredients into a symphony of flavors and textures.",
+                                "Moist layers, spiced perfection, topped with cream cheese frosting.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -427,14 +427,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Koba Crunch Salad",
+                                "Koba Salad",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "A timeless favorite, the Classic Garden Salad is a vibrant medley of crisp mixed greens, juicy tomatoes, cucumber slices, and colorful bell peppers. ",
+                                "Fresh greens, grilled chicken, avocado, tomatoes, and a zesty vinaigrette delight.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -548,14 +548,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Tache Red Velvet Chocolate Cake",
+                                "Choco-berry Cake",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Our Red Velvet Chocolate Cake is more than a dessert—it's an exquisite symphony of flavors, a visual masterpiece, and a decadent treat that beckons those with a penchant for the extraordinary.",
+                                "Decadent chocolate layers infused with bursts of berry compote.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -676,7 +676,7 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                                 ),
                               ),
                               Text(
-                                "Embark on a Mediterranean journey with our Ceasar Salad, featuring a harmonious combination of tomatoes, cucumbers, red onions, Kalamata olives, and crumbled feta cheese.",
+                                "Romaine, croutons, Parmesan, Caesar dressing—a classic, crisp delight.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,
@@ -790,14 +790,14 @@ class _NewItemsWidgetState extends State<NewItemsWidget> {
                             mainAxisAlignment: MainAxisAlignment.spaceAround,
                             children: [
                               Text(
-                                "Tache Lemon Bliss Iced Tea",
+                                "Lemon Iced Tea",
                                 style: TextStyle(
                                   fontSize: 17,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
                               Text(
-                                "Quench your thirst with a burst of citrusy refreshment! Our Lemon Bliss Iced Tea is a harmonious blend of premium tea leaves, chilled to perfection and infused with the bright essence of sun-kissed lemons.",
+                                "Brisk black tea meets fresh lemon over ice—revitalizing citrus.",
                                 style: TextStyle(
                                   fontSize: 12,
                                   // fontWeight: FontWeight.bold,

@@ -103,7 +103,7 @@ class _MostSaladState extends State<MostSalad> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Koba Crunch Salad",
+                              "Koba Salad",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,

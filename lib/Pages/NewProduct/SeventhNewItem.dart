@@ -103,7 +103,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Lemon Bliss Iced Tea",
+                              "Lemon Iced Tea",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -155,7 +155,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Quench your thirst with a burst of citrusy refreshment! Our Lemon Bliss Iced Tea is a harmonious blend of premium tea leaves, chilled to perfection and infused with the bright essence of sun-kissed lemons. This revitalizing beverage strikes the perfect balance between sweet and tart, offering a symphony of flavors that dance on your taste buds. Served over ice, it's the ultimate cool companion for a sunny day, providing a zesty pick-me-up that's both invigorating and satisfying. Experience the pure joy of sipping on sunshine with every sip of our Tache Lemon Bliss Iced Tea.",
+                          "A refreshing blend of brisk black tea infused with the bright essence of fresh lemons, served over ice for a revitalizing and citrusy beverage experience.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
@@ -212,7 +212,7 @@ class _SeventhNewItemState extends State<SeventhNewItem> {
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),
-          drawer: DrawerWidget(),
+      drawer: DrawerWidget(),
     );
   }
 }

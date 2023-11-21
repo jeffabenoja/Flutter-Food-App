@@ -157,7 +157,7 @@ class _SixthNewItemState extends State<SixthNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Embark on a Mediterranean journey with our Ceasar Salad, featuring a harmonious combination of tomatoes, cucumbers, red onions, Kalamata olives, and crumbled feta cheese. Drizzled with extra virgin olive oil and sprinkled with oregano, this salad captures the essence of Greek cuisine with its bold flavors and briny notes.",
+                          "Crisp romaine lettuce tossed with garlic croutons, Parmesan cheese, and Caesar dressing, creating a timeless salad with a perfect balance of textures and flavors.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
@@ -214,7 +214,7 @@ class _SixthNewItemState extends State<SixthNewItem> {
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),
-          drawer: DrawerWidget(), 
+      drawer: DrawerWidget(),
     );
   }
 }

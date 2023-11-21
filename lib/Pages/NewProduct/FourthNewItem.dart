@@ -155,7 +155,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "A timeless favorite, the Classic Garden Salad is a vibrant medley of crisp mixed greens, juicy tomatoes, cucumber slices, and colorful bell peppers. Topped with shredded carrots and radishes, this refreshing salad offers a delightful crunch and a burst of freshness. It's often served with a light vinaigrette or ranch dressing.",
+                          "A vibrant ensemble of crisp greens, crunchy nuts, and fresh vegetables, tossed in a zesty dressing, creating a refreshing and satisfying crunch in every bite.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
@@ -212,7 +212,7 @@ class _FourthNewItemState extends State<FourthNewItem> {
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),
-          drawer: DrawerWidget(),
+      drawer: DrawerWidget(),
     );
   }
 }
