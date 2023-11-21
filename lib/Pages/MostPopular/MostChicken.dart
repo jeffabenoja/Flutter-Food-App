@@ -103,7 +103,7 @@ class _MostChickenState extends State<MostChicken> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Special Fried Chicken with Lemon",
+                              "Lemon Chicken",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,

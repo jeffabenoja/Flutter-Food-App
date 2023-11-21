@@ -6,7 +6,6 @@ import 'package:tache_food/Widgets/Components/AppBarWidget.dart';
 import 'package:tache_food/Widgets/Components/DrawerWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class CakeMenu extends StatefulWidget {
   const CakeMenu({Key? key}) : super(key: key);
 
@@ -160,28 +159,28 @@ class _CakeMenuWidgetState extends State<CakeMenu> {
           ),
           _buildCakeItem(
               0,
-              "Carrot Bliss Cake",
-              "Indulge in the sublime delight of our Carrot Bliss Cake—a culinary masterpiece that seamlessly blends wholesome ingredients into a symphony of flavors. Each decadent slice is a celebration of moistness, warmth, and a harmonious marriage of sweet and spiced notes.",
+              "Carrot Cake",
+              "Moist layers adorned with spiced carrots, walnuts, and velvety cream cheese frosting.",
               "190.00"),
           _buildCakeItem(
               1,
-              "Chocolate Strawberry Symphony Cake",
-              "Satisfy your sweet cravings with our Chocolate Strawberry Symphony Cake—a rich chocolate indulgence adorned with luscious strawberries. Every bite is a harmonious blend of velvety cocoa and juicy berries, creating a delectable dance of flavors.",
+              "Choco-berry Cake",
+              "Rich chocolate layers interwoven with vibrant berry compote, a decadent delight.",
               "180.00"),
           _buildCakeItem(
               2,
-              "Blueberry Dream Cheesecake",
-              "Dive into a world of flavor with our Blueberry Dream Cheesecake—a creamy indulgence that combines the lusciousness of cheesecake with the burst of sweet, tangy blueberries. Each forkful is a journey through layers of velvety richness and fruity bliss.",
+              "Blueberry Cheese",
+              "Creamy cheesecake infused with juicy blueberries, a perfect balance of sweet indulgence.",
               "160.00"),
           _buildCakeItem(
               3,
-              "Mango Tango Cheesecake",
-              "Experience tropical heaven with our Mango Tango Cheesecake—a velvety delight that marries the creamy allure of cheesecake with the exotic sweetness of ripe mangoes. Each bite is a taste of paradise, a mango-infused escape for your palate.",
+              "Mango Cheese",
+              "Tropical elegance featuring a velvety blend of mango and smooth cream cheese.",
               "210.00"),
           _buildCakeItem(
               4,
-              "Strawberry Serenade Shortcake",
-              "Fall in love with our Strawberry Serenade Shortcake—a delicate ensemble of fluffy cake, fresh strawberries, and billows of whipped cream. This classic treat is a sweet serenade that harmonizes lightness and lusciousness in every scrumptious bite.",
+              "Strawberry Short",
+              "Light sponge layers, fresh strawberries, and fluffy whipped cream, a delightful classic.",
               "125.00"),
         ],
       ),

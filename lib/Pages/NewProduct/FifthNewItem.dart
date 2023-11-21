@@ -103,7 +103,7 @@ class _FifthNewItemState extends State<FifthNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Red Velvet Chocolate Cake",
+                              "Choco-berry Cake",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -155,7 +155,7 @@ class _FifthNewItemState extends State<FifthNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Our Red Velvet Chocolate Cake is more than a dessert—it's an exquisite symphony of flavors, a visual masterpiece, and a decadent treat that beckons those with a penchant for the extraordinary. Each bite is a celebration of the artistry and craftsmanship that goes into creating a truly memorable dessert experience.",
+                          "A divine creation intertwining layers of rich chocolate cake with bursts of vibrant berry compote, marrying the velvety sweetness of chocolate with the fruity allure of mixed berries.",
                           style: TextStyle(
                             fontSize: 13,
                           ),

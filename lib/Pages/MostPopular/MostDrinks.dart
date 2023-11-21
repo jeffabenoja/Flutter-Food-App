@@ -103,7 +103,7 @@ class _MostDrinksState extends State<MostDrinks> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache Watermelon Shake",
+                              "Watermelon Shake",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,

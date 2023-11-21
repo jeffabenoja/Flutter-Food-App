@@ -103,7 +103,7 @@ class _MostBurgerState extends State<MostBurger> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Chicken Tache BBQ Burger",
+                              "Chicken BBQ Burger",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,

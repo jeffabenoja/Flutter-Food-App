@@ -105,7 +105,7 @@ class _SecondNewItemState extends State<SecondNewItem> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Tache ala Meatballs Spaghetti",
+                              "Meatballs Spaghetti",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
@@ -157,7 +157,7 @@ class _SecondNewItemState extends State<SecondNewItem> {
                           vertical: 10,
                         ),
                         child: Text(
-                          "Indulge in a classic Italian comfort dish with Meatballs Spaghetti. This iconic combination features perfectly cooked spaghetti noodles generously coated in a rich and savory tomato sauce, adorned with hearty, flavorful meatballs.",
+                          "Al dente strands of spaghetti enrobed in a rich, savory tomato sauce and adorned with perfectly seasoned, succulent meatballs for a classic and comforting Italian culinary experience.",
                           style: TextStyle(
                             fontSize: 13,
                           ),
@@ -214,7 +214,7 @@ class _SecondNewItemState extends State<SecondNewItem> {
       bottomNavigationBar: ItemBottomNavbar(
         totalItem1: totalItem1,
       ),
-          drawer: DrawerWidget(),
+      drawer: DrawerWidget(),
     );
   }
 }
