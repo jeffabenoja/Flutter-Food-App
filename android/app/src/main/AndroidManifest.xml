@@ -2,7 +2,7 @@
     <application
         android:label="tache_food"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/tache_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"

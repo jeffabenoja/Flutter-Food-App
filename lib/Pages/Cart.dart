@@ -137,14 +137,14 @@ class _CartItemState extends State<Cart> {
                                     MainAxisAlignment.spaceAround,
                                 children: [
                                   Text(
-                                    "Add Name",
+                                    "Carrot Cake",
                                     style: TextStyle(
-                                      fontSize: 17,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                   Text(
-                                    "Desciption",
+                                    "Moist layers, spiced perfection, topped with cream cheese frosting.",
                                     style: TextStyle(
                                       fontSize: 12,
                                       // fontWeight: FontWeight.bold,
@@ -153,7 +153,7 @@ class _CartItemState extends State<Cart> {
                                   Text(
                                     "\Php $totalItem1.00",
                                     style: TextStyle(
-                                      fontSize: 15,
+                                      fontSize: 13,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.red,
                                     ),
@@ -206,14 +206,14 @@ class _CartItemState extends State<Cart> {
                                     MainAxisAlignment.spaceAround,
                                 children: [
                                   Text(
-                                    "Add Name",
+                                    "Quattro Formaggi",
                                     style: TextStyle(
-                                      fontSize: 17,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                   Text(
-                                    "Desciption",
+                                    "A cheese lover's delight.",
                                     style: TextStyle(
                                       fontSize: 12,
                                       // fontWeight: FontWeight.bold,
@@ -222,7 +222,7 @@ class _CartItemState extends State<Cart> {
                                   Text(
                                     "\Php $totalItem2.00",
                                     style: TextStyle(
-                                      fontSize: 15,
+                                      fontSize: 13,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.red,
                                     ),
@@ -274,14 +274,14 @@ class _CartItemState extends State<Cart> {
                                     MainAxisAlignment.spaceAround,
                                 children: [
                                   Text(
-                                    "Add Name",
+                                    "Garganelli Alfredo",
                                     style: TextStyle(
-                                      fontSize: 17,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                   Text(
-                                    "Desciption",
+                                    "Creamy pasta delight with twisted tubes in Alfredo sauce.",
                                     style: TextStyle(
                                       fontSize: 12,
                                       // fontWeight: FontWeight.bold,
@@ -290,7 +290,7 @@ class _CartItemState extends State<Cart> {
                                   Text(
                                     "\Php $totalItem3.00",
                                     style: TextStyle(
-                                      fontSize: 15,
+                                      fontSize: 13,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.red,
                                     ),
@@ -343,14 +343,14 @@ class _CartItemState extends State<Cart> {
                                     MainAxisAlignment.spaceAround,
                                 children: [
                                   Text(
-                                    "Add Name",
+                                    "Classic Cola",
                                     style: TextStyle(
-                                      fontSize: 17,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                   Text(
-                                    "Desciption",
+                                    "Effervescent nostalgia, the timeless and satisfying taste of fizzy cola.",
                                     style: TextStyle(
                                       fontSize: 12,
                                       // fontWeight: FontWeight.bold,
@@ -359,11 +359,12 @@ class _CartItemState extends State<Cart> {
                                   Text(
                                     "\Php $totalItem4.00",
                                     style: TextStyle(
-                                      fontSize: 15,
+                                      fontSize: 13,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.red,
                                     ),
                                   ),
+                                  // Padding(padding: EdgeInsets.only(bottom: 5))
                                 ],
                               ),
                             ),
